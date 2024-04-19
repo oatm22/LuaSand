@@ -71,7 +71,6 @@ while running do
     mainScene:Simulate(frame)
     mainScene:Render(renderer)
 
-    --renderer:setDrawColor(~mainScene.Matrix[mouseX+1][mouseY+1].Element.Color)
     renderer:setDrawColor(Elements[selectedElement].Color)
     renderer:drawPoint({x=mouseX, y=mouseY})
 
