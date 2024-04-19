@@ -1,6 +1,3 @@
-package.cpath = package.cpath..";./bin/linux/?.so"
-package.cpath = package.cpath..";./bin/windows/?.dll"
-
 SDL = require("SDL")
 Elements= require("data.elements")
 Scene = require("modules.scene")
